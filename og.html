@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="og.css">
+    <title>Document</title>
+</head>
+
+<body onload="Checklogin()">
+    <div class="text">
+        <input type="text" placeholder="username" id="username">
+        <input type="text" placeholder="password" id="password">
+        <button onclick="Login()">log</button>
+    </div>
+
+    <script>
+        const listAccount = [
+            {
+                username: "admin",
+                password: "ad1"
+
+            },
+
+            {
+                username: "admin",
+                password: "ad3"
+
+            },
+
+
+            {
+                username: "admin",
+                password: "ad2"
+
+            }
+
+
+        ]
+
+
+        let islogin = !!localStorage.getItem("id")
+
+        function Checklogin() {
+
+            if (islogin) {
+                window.location.href = "index.html";
+               
+            }
+        }
+
+
+
+
+        function Login() {
+
+            let username = document.getElementById("username").value
+            let password = document.getElementById("password").value
+            let checklogin = listAccount.some(value => value.username === username && value.password === password)
+            console.log(checklogin);
+            if (checklogin) {
+                localStorage.setItem("id", username)
+                islogin = true
+                Checklogin()
+             
+
+
+
+
+            } else {
+                alert("wrong")
+            }
+        }
+
+
+
+
+    </script>
+</body>
+
+</html>

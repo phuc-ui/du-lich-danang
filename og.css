@@ -1,0 +1,25 @@
+body {
+    background-image: url(img/login.backgruod.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+div {
+    text-align: center;
+    height: 500px;
+    line-height: 500px;
+    display: block;
+}
+
+input {
+    border-style: solid;
+    font-size: x-large;
+    font-weight: 500;
+    font-style: italic;
+}
+
+button {
+    width: 40px;
+    
+}

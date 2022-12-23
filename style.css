@@ -1,0 +1,762 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background: #fff;
+    color: #a5a5a5;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    height: 10000px;
+}
+
+
+
+.top-bar {
+    height: 36px;
+    width: 100%;
+    background: #ff7300;
+    position: absolute;
+    z-index: 3;
+
+}
+
+.grid-wide {
+    height: 36px;
+
+
+}
+
+.login {
+    list-style: none;
+    text-decoration: none;
+
+}
+.mystyle {background-color: #000;}
+
+.login li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.login li :hover {
+    color: coral;
+
+}
+
+.login li {
+    display: inline-block;
+}
+
+.header-bar-right {
+    float: right;
+    width: 300px;
+    height: 36px;
+    display: inline-table;
+    font-size: 12px;
+    font-weight: bold;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+.icon-head {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    height: 36px;
+
+}
+
+
+.icon-head li a {
+    color: #fff;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 35px;
+
+}
+
+.icon-head .phone :hover {
+    color: coral;
+}
+
+.icon-head li a :hover {
+    color: coral;
+}
+
+.conteiner-left {
+    display: inline-block;
+    text-align: left;
+    width: 350px;
+    height: 20px;
+    font-size: 13px;
+    font-weight: bolder;
+
+}
+
+.home {
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+.home-backgruod {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(img/Da-Nang-Ba-Na-Hills-1.jpg);
+    display: block;
+}
+
+.bar-introdu {
+    width: auto;
+    height: 140px;
+    text-align: center;
+    background-color: #7e7e7e9d;
+    font-weight: lighter;
+    bottom: 6px;
+    line-height: 130px;
+    font-size: 18px;
+    margin-top: 36px;
+
+}
+
+.bar-introdu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0px 0px;
+    transition: all 0.10s ease-in-out;
+}
+
+.bar-introdu.darkHeader {
+    position: fixed;
+    background-color: #a0571ba2;
+    height: 100px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 50px;
+    transition: all 0.10s ease-in-out;
+    margin: 0%;
+}
+
+
+
+.list-home li {
+    display: inline;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.list-home a {
+    text-decoration: none;
+    color: #fff;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+.list-home #logo a {
+    position: relative;
+    right: 200px;
+
+}
+
+.list-home #search-icon {
+    position: relative;
+    left: 200px;
+    width: 30px;
+
+}
+
+.list-home .heade-text {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    width: 0;
+    padding: 0;
+    transition: all 0.25s ease-in-out;
+
+}
+
+.list-home :hover .heade-text {
+    width: 150px;
+    padding: 10px 15px;
+    background-color: azure;
+    border-radius: 5px;
+}
+
+.list-home .btn {
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+    border-radius: 50px;
+}
+
+.main-back-groud {
+    text-align: center;
+    top: 350px;
+    display: inline;
+    position: relative;
+
+
+
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 130px;
+    margin: 0%;
+    color: rgba(255, 251, 0, 0.849);
+    font-weight: lighter;
+}
+
+h2 {
+    font-family: Lucida Handwriting;
+    font-size: 90px;
+    margin: 0%;
+    color: rgba(255, 251, 0, 0.801);
+    font-weight: lighter;
+}
+
+.row-bar {
+
+    list-style-type: none;
+    position: relative;
+    bottom: 100px;
+    height: 100px;
+    line-height: 100px;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.row-bar ul {
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.bar-bot li {
+    display: inline-block;
+    width: 300px;
+
+
+
+}
+
+.row-bar ul li a {
+    font-size: large;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    padding: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.row-bar ul li a i {
+    margin: 10px;
+    color: rgb(255, 166, 0);
+    font-size: x-large;
+}
+
+.row-bar ul :hover {
+    background-color: rgba(255, 208, 0, 0.74);
+    border-radius: 45px;
+
+}
+
+.mystyle {
+    display: none;
+}
+
+.row-bar .activi.active {
+    transition: all 0.15s ease-in-out;
+    background-color: gold;
+    border-radius: 50px;
+}
+
+.row-bar .activi.active i {
+    color: rgb(255, 255, 255);
+
+}
+
+.row-bar ul :first-child :hover {
+    background-color: gold;
+    border-radius: 45px;
+}
+
+.row-bar ul :last-child :hover {
+    background-color: gold;
+    border-radius: 45px;
+}
+
+.check-bar {
+    width: auto;
+    display: block;
+    background: linear-gradient(to right, rgb(224, 191, 0), rgb(143, 49, 143));
+    position: relative;
+    bottom: 100px;
+}
+
+.list-item {
+    margin: 0 auto;
+    height: 250px;
+    width: 1400px;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 550px;
+    text-transform: uppercase;
+}
+
+.item-1 {
+    margin-right: 30px;
+
+}
+
+.item-2 {
+    margin-right: 30px;
+
+}
+
+.item-3 {
+    margin-right: 30px;
+
+}
+
+
+.item-1 input {
+    width: 250px;
+    height: 45px;
+    margin-top: 20px;
+    font-size: large;
+}
+
+.item-3 input {
+    width: 100px;
+    height: 45px;
+    margin-top: 20px;
+    font-size: large;
+}
+
+
+
+.item-2 input {
+    width: 300px;
+    height: 45px;
+    margin-top: 20px;
+    font-size: large;
+}
+
+.tours {
+    display: block;
+}
+
+.grid-tuors {
+    width: 1500px;
+    margin: 0% auto;
+    height: 750px;
+}
+
+.tours-conteiner {
+    margin: 80 auto;
+}
+
+.tours-content {
+    text-align: center;
+
+}
+
+.tours-content h3 {
+    font-weight: 700;
+    color: #2d2c2c;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.tours-content p {
+    font-size: 30px;
+    font-style: italic;
+    color: #707070;
+    line-height: 1.336;
+    margin-bottom: 50px;
+}
+
+.list-tuors {
+    width: 1500px;
+    height: 500px;
+    display: flex;
+    position: relative;
+    left: 100px;
+
+}
+
+.tours-backgroud-1 {
+    background-image: url(img/HD-wallpaper-bali-gate-indonesia-architecture-bali-building-earth-indonesia-natural-travel.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.tour-item {
+    width: 400px;
+    height: 450px;
+    border-style: solid;
+    border: 15% gray;
+    margin: 20px;
+
+}
+
+
+.tours-backgroud-2 {
+    background-image: url(img/Seine\ paris\ bike-GettyImages-1161606501.webp);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.tours-backgroud-3 {
+    background-image: url(img/nhat-ban-tokyo-dep-huyen-ao-khi-tuyet-roi-day-nhung-ngay-dau-nam-moi_1.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.item-content {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.item-date {
+    position: relative;
+    top: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 10px;
+    padding: 0 25px;
+    background-color: #fa9e1b;
+    color: #fff;
+}
+
+.item-center {
+    position: relative;
+    margin-top: 35%;
+    text-align: center;
+
+}
+
+.item-center h1 {
+    color: #fff;
+    font-size: 65px;
+    font-weight: lighter;
+    font-family: Lucida Console;
+}
+
+.item-center span {
+    color: #fff;
+    font-size: 20px;
+}
+
+.item-rating {
+    margin-top: 10px;
+    color: #ffeb8d;
+    font-size: 20px;
+}
+
+.packge-conteiner-backgroud {
+    width: 100%;
+    height: 700px;
+    background: url(img/Vé\ VinWonders\ Phú\ Quốc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.conteiner-packge {
+    position: relative;
+    top: 150px;
+    left: 450px;
+
+}
+
+.grid-packge {
+    width: 1200px;
+    height: 400px;
+
+
+
+}
+
+.packge-body {
+    background-color: #fff;
+    height: 400px;
+
+}
+
+.content-packge {
+    text-align: center;
+    line-height: 150px;
+}
+
+.content-packge h4 {
+    font-size: 30px;
+    color: #000;
+    margin: 0%;
+}
+
+.item-rating-pack {
+    margin: 0%;
+    bottom: 100px;
+    position: relative;
+}
+
+.content-packge p {
+    font-size: 25px;
+    margin: 0%;
+    height: 100px;
+    position: relative;
+    bottom: 200px;
+
+}
+
+.pack-bton {
+    height: 50px;
+    position: relative;
+    bottom: 200px;
+
+    width: 150px;
+    left: 43%;
+
+}
+
+.pack-bton a {
+    font-size: 25px;
+    background-color: rgb(236, 204, 17);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 35px;
+    font-weight: 600;
+
+}
+
+
+.offers-conteiner {
+    width: auto;
+    margin: 0 auto;
+
+}
+
+.offers-conteiner h5 {
+    text-align: center;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+
+.title-ofeers {
+    position: relative;
+    color: #000;
+    font-size: 20px;
+    font-weight: lighter;
+
+}
+
+.ofeers-choose {
+    max-width: 1600px;
+    margin: 0% auto;
+}
+
+.ofeers-item {
+    display: inline-block;
+    color: #000;
+    font-size: 15px;
+
+
+}
+
+
+#turky {
+    width: 400px;
+    height: 400px;
+}
+
+
+.turky-thing {
+    display: inline-flex;
+
+}
+
+.moskov-thing {
+    display: inline-flex;
+
+}
+
+.bangkok-thing {
+    display: inline-flex;
+    margin-top: 20px;
+
+}
+
+.budapest-thing {
+    display: inline-flex;
+    margin-top: 30px;
+
+}
+
+.title-turky {
+    margin-left: 20px;
+    color: #fa9e1b;
+    line-height: 28px;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.title-turky p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #929191;
+    margin: 16px 0;
+    line-height: 2;
+}
+
+.title-turky span {
+    font-size: medium;
+    color: #929191;
+}
+
+.title-turky a {
+    text-decoration: none;
+    color: #ffa629;
+    margin-top: 25px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+.title-turky a:hover {
+    color: #ff7300;
+    font-size: xx-large;
+    border: #000;
+    border-style: ridge;
+    border-radius: 20%;
+
+}
+
+.grid-testimonials {
+    width: 1500px;
+    margin: 0% auto;
+}
+
+.testimonials {
+    margin: 30px 0;
+
+}
+
+.testimonials-body {
+    padding: 90px 0%;
+}
+
+.testimonials-body h6 {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.testimonials-body-item {
+    margin-top: 60px;
+}
+
+.col {
+    width: auto;
+    height: 500px;
+    border: #000;
+    border-style: ridge;
+    background: linear-gradient(to right, #fa9d1bb4, #db7b0cd0);
+    padding: 35px 0;
+}
+
+.input-testimonials {
+    width: auto;
+
+}
+
+.input-test {
+    height: 500px;
+
+
+}
+
+.input-test button input {
+    width: 1400px;
+    height: 45px;
+    display: block;
+    font-size: larger;
+    font-weight: 200;
+
+
+}
+
+.input-test button {
+    padding: 0%;
+    border: 0;
+
+}
+
+.title-coment {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 200;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.title-h {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    font-size: xx-large;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.button-commet {
+    background-color: rgb(80, 163, 32);
+    width: 50px;
+    height: 50px;
+    color: #000;
+}
+
+.push-commet {
+    padding: 20px;
+    text-decoration: none;
+}

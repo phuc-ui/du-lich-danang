@@ -1,0 +1,52 @@
+@media screen and (max-width: 1000px) {
+  .grid-wide {
+    width: auto;
+    margin: 0%;
+  }
+
+  .conteiner-left {
+    display: none;
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .turky-thing {
+    display: inline;
+
+}
+
+.moskov-thing {
+    display: inline;
+
+}
+
+.bangkok-thing {
+    display: inline;
+    margin-top: 20px;
+
+}
+
+.budapest-thing {
+    display: inline;
+    margin-top: 30px;
+
+}
+.bar-introdu {display: none;}
+
+}
+@media screen and (max-width:780px) {
+  .list-tuors{
+    width: 670px;
+    display: inline-block;
+  }
+  .list-item {
+width: 500px;
+display: inline;
+
+  }
+  .check-bar{
+    width: 500px;
+  }
+
+
+}
