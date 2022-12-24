@@ -2,6 +2,7 @@ body {
     background-image: url(img/login.backgruod.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    text-align: center;
 
 }
 
@@ -9,7 +10,9 @@ div {
     text-align: center;
     height: 500px;
     line-height: 500px;
-    display: block;
+    display:inline-block;
+    width: auto;
+    margin: 0% auto;
 }
 
 input {
@@ -17,6 +20,7 @@ input {
     font-size: x-large;
     font-weight: 500;
     font-style: italic;
+    display: inline-block;
 }
 
 button {
